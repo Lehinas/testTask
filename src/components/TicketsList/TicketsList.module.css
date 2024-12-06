@@ -1,0 +1,107 @@
+.TicketsList {
+    display: flex;
+    flex-direction: column;
+    max-height: 75vh;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.ticket_item {
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buy_section {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-right: 1px solid #ccc;
+}
+
+.airline_logo {
+    width: 120px;
+    height: auto;
+}
+
+.price_btn {
+    background-color: #FF6D00;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.price_btn:hover {
+    background-color: #45a049;
+}
+
+.flight_details {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flight_time {
+    display: flex;
+}
+
+.time {
+    text-align: center;
+    font-size: 40px;
+    color: #4A4A4A;
+}
+
+.stops {
+    text-align: center;
+    padding: 10px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stops_count {
+    color: #4A4A4A;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.stops_airplane {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.stops_logo {
+    width: 20px;
+}
+
+.line {
+    min-width: 100px;
+    height: 2px;
+    background-color: #D3D6D7;
+}
+
+.flight_info_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flight_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.flight_place {
+    color: #4A4A4A;
+    font-weight: 600;
+}
+
+.departure_date,
+.arrival_date {
+    color: #ccc;
+}
